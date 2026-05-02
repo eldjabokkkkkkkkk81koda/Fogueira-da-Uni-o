@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-wine: #6B0D1A;
+  --color-wine-dark: #4A0711;
+  --color-gold: #DAAF37;
+  --color-black-bg: #0A0A0A;
+  --color-text-gray: #E6E6E6;
+}
+
+body {
+  background-color: var(--color-black-bg);
+  color: var(--color-text-gray);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', cursive;
+}
+
