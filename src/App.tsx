@@ -75,11 +75,11 @@ export default function App() {
     <div className="min-h-screen bg-[#0A0A0A] text-[#E6E6E6] overflow-x-hidden selection:bg-[#DAAF37] selection:text-[#0A0A0A]">
       {/* Header */}
       <header className="p-6 relative z-20 flex justify-between items-center max-w-6xl mx-auto">
-        <button className="flex items-center gap-2 text-[#E6E6E6]/60 hover:text-[#DAAF37] transition-colors tracking-widest uppercase text-xs md:text-sm font-semibold cursor-pointer">
+        <a href="https://osvingadores.netlify.app/" className="flex items-center gap-2 text-[#E6E6E6]/60 hover:text-[#DAAF37] transition-colors tracking-widest uppercase text-xs md:text-sm font-semibold cursor-pointer">
           <ArrowLeft size={18} />
           <span className="hidden md:inline">Voltar à Linha do Tempo</span>
           <span className="inline md:hidden">Voltar</span>
-        </button>
+        </a>
         <div className="font-bebas text-xl md:text-2xl text-[#6B0D1A] tracking-widest">
           Projeto <span className="text-[#DAAF37]">Vingadores</span>
         </div>
