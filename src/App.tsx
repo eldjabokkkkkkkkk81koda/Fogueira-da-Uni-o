@@ -102,7 +102,7 @@ export default function App() {
       {/* Header */}
       <header className="px-6 py-6 md:py-8 relative z-20 flex justify-between items-center w-full border-b border-[#F0F0F0]/5 shrink-0">
         <a
-          href="https://osvingadores.netlify.app/"
+          href="https://pagina-inicial.vingadores.workers.dev/"
           className="flex items-center gap-3 text-[#F0F0F0]/50 hover:text-[#E4BA4B] transition-colors tracking-[0.2em] uppercase text-[10px] font-semibold cursor-pointer"
         >
           <ArrowLeft size={14} />
